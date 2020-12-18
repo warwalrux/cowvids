@@ -1,0 +1,22 @@
+---
+- character: 'ren'
+  line: 'Stimpy you eediot!'
+  duration: '1'
+- character: 'stimpy'
+  line: "I'm sorry ren"
+  duration: '1'
+- character: 'ren'
+  line: "DO YOU EVEN KNOW WHY YOU'RE SORRY?!"
+  duration: '1'
+- character: 'stimpy'
+  line: 'no...'
+  duration: '1'
+- character: 'ren'
+  line: "YOU USED MY TOOTHBRUSH TO CLEAN YOUR BUTT!!!"
+  duration: '2'
+- character: 'stimpy'
+  line: "oh. in that case, I'm sorry ren"
+  duration: '1'
+- character: 'ren'
+  line: "AAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHH"
+  duration: '1.5'

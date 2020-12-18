@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+import argparse
+import subprocess
+import os
+import yaml
+
+def produce(file):
+    with open(file) as f:
+        script = yaml.load(f, Loader=yaml.FullLoader)
+        return(script)
+
+def parse_scene(args, scene):
+    output = ''
+    try:
+        if scene['character']:
+            command = ['/usr/games/cowsay', '-f', scene['character'], scene['line'] ]
+            if args.debug:
+                print("%s: %s" %(scene['character'],scene['line']),' -- GOOD')
+            else:
+                output = render_scene(args, command)
+    except KeyError as e:
+        False
+
+    try:
+        if scene['text']:
+            if args.debug:
+                print(scene['text'])
+                output = scene['text']
+            else:
+                output = render_text(args, scene['text'])
+    except KeyError as e:
+        False
+
+    return(output)
+
+def render_scene(args, command):
+    scene = subprocess.check_output(command)
+    if not args.debug:
+        return(scene)
+
+def render_text(args, text):
+    scene_text = subprocess.Popen(['/usr/bin/echo', text], stdout=subprocess.PIPE)
+    formatting = subprocess.Popen(['fold', '-w', '40'], stdin=scene_text.stdout, stdout=subprocess.PIPE)
+    rendered_text = formatting.communicate()[0]
+
+    if not args.debug:
+        return(rendered_text)
+    else:
+        print(rendered_text)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Create users from acreq')
+    parser.add_argument('-d', '--debug', action='store_true',
+                        help='debug test switch')
+    parser.add_argument('-s', '--script', default='',
+                        help='Cowsay script')
+    args = parser.parse_args()
+    script = produce(args.script)
+    for scene in script:
+        os.system('clear')
+        text = parse_scene(args, scene)
+        if not args.debug:
+            print(text.decode('utf-8'))
+        endure = ['/usr/bin/sleep', scene['duration'] ]
+        subprocess.call(endure)
+
+    os.system('clear')

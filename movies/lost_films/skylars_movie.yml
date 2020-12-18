@@ -1,0 +1,31 @@
+---
+- character: 'fox'
+  line: 'What DO I say?'
+  duration: '3'
+- character: 'bud-frogs'
+  line: "I farted"
+  duration: '1.5'
+- character: 'gnu'
+  line: "God I know and it stinks!"
+  duration: '1.5'
+- character: 'bud-frogs'
+  line: "Who are you to talk"
+  duration: '1,5'
+- character: 'gnu'
+  line: "You gonna make me yak!"
+  duration: '2'
+- character: 'bud-frogs'
+  line: "It's not that bad..."
+  duration: '1'
+- character: 'gnu'
+  line: "YYYYAAAAAAKKKKKKKK"
+  duration: '2'
+- character: 'unipony'
+  line: 'HDERP'
+  duration: '1'
+- character: 'stegosaurus'
+  line: 'THIS HAS BEENA MOVIE FOR SKYLAR'
+  duration: '2'
+- character: 'stegosaurus'
+  line: 'THE END'
+  duration: '1'

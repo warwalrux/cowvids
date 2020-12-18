@@ -1,0 +1,17 @@
+---
+- character: 'fox'
+  line: 'What DO I say?'
+  duration: '3'
+- character: 'dragon'
+  line: "RAWR! I'm a dargon"
+  duration: '1'
+- character: 'flaming-sheep'
+  line: "hey, can you quit breathing on me please? -_-"
+  duration: '1.5'
+
+
+
+
+
+
+

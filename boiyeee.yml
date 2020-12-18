@@ -1,0 +1,46 @@
+---
+- character: 'moofasa'
+  line: "...moo?"
+  duration: "1.5"
+- character: 'bud-frogs'
+  line: "moo indeed"
+  duration: "1"
+- character: 'moofasa'
+  line: "dude, youre a frog"
+  duration: "1"
+- character: 'bud-frogs'
+  line: "and you're a cow-lion..thing..."
+  duration: '2'
+- character: 'moofasa'
+  line: "..."
+  duration: "1.5"
+- character: 'bud-frogs'
+  line: "...what even are you, man?"
+  duration: '1.5'
+- character: 'moofasa'
+  line: "well my name is gary-"
+  duration: '1'
+- character: 'bud-frogs'
+  line: "shut up, nobody asked you"
+  duration: '1.5'
+- character: 'moofasa'
+  line: "but you did-"
+  duration: '1'
+- character: 'bud-frogs'
+  line: "you talk too much, im OUTIES"
+  duration: '1.5'
+- character: 'moofasa'
+  line: "...okay then"
+  duration: '1.5'
+- character: 'stegosaurus'
+  line: "2 minutes later"
+  duration: '1.5'
+- character: 'moofasa'
+  line: "heh.. ribbit"
+  duration: '1.5'
+- character: 'stegosaurus'
+  line: "da da da DA"
+  duration: '1.5'
+- character: 'stegosaurus'
+  line: "the end my dude"
+  duration: '2'
