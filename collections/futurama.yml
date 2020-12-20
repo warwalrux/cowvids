@@ -1,0 +1,44 @@
+- character: "amy"
+  line: "amy"
+  duration: 2
+
+- character: "bender"
+  line: "bender"
+  duration: 2
+
+- character: "bender-md"
+  line: "bender-md"
+  duration: 2
+
+- character: "farnsworth"
+  line: "farnsworth"
+  duration: 2
+
+- character: "fry-money"
+  line: "fry-money"
+  duration: 2
+
+- character: "frylock"
+  line: "frylock"
+  duration: 2
+
+- character: "leela"
+  line: "leela"
+  duration: 2
+
+- character: "professor"
+  line: "professor"
+  duration: 2
+
+- character: "scruffy"
+  line: "scruffy"
+  duration: 2
+
+- character: "zoidberg"
+  line: "zoidberg"
+  duration: 2
+
+- character: "zoidberg2"
+  line: "zoidberg2"
+  duration: 2
+

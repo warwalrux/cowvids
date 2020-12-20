@@ -1,0 +1,36 @@
+- character: "bowser"
+  line: "bowser"
+  duration: 2
+
+- character: "bowser-jr"
+  line: "bowser-jr"
+  duration: 2
+
+- character: "dr-mario"
+  line: "dr-mario"
+  duration: 2
+
+- character: "hypnotoad"
+  line: "hypnotoad"
+  duration: 2
+
+- character: "luigi"
+  line: "luigi"
+  duration: 2
+
+- character: "mario"
+  line: "mario"
+  duration: 2
+
+- character: "peach"
+  line: "peach"
+  duration: 2
+
+- character: "super-mario-world"
+  line: "super-mario-world"
+  duration: 2
+
+- character: "yoshi"
+  line: "yoshi"
+  duration: 2
+

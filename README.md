@@ -11,7 +11,7 @@ once you're ready to run the script use the following arguments:
 
 '-d/--debug'	-- debug switch for testing scripts
 
-## example:
+## Running cowvid example:
 
 ```
 # Debugging a cow script
@@ -22,7 +22,7 @@ once you're ready to run the script use the following arguments:
 ```
 
 
-# Pre Requisites:
+# Pre-Requisites:
 Packages that must be installed to use this:
   * cowsay
   * figlet

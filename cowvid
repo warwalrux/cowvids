@@ -51,7 +51,7 @@ def render_text(args, scene):
     except KeyError as e:
         scene_text = subprocess.Popen(['/usr/bin/echo', scene['text']], stdout=subprocess.PIPE)
         formatting = subprocess.Popen(['fold', '-w', '40'], stdin=scene_text.stdout, stdout=subprocess.PIPE)
-        rendered_text = formatting.comunicate()[0]
+        rendered_text = formatting.communicate()[0]
 
     if not args.debug:
         return(rendered_text)
